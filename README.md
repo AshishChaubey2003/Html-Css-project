@@ -31,13 +31,14 @@ EcoWheels/
 
 -->Flexbox + CSS Grid — layout management
 
-Future Improvements
 
-Add JavaScript for booking form validation.
+  Future Improvements
 
-Integrate Google Maps API for pickup points.
+-->Add JavaScript for booking form validation.
 
-Add backend support (Node.js/Django/Flask) to store bookings.
+-->Integrate Google Maps API for pickup points.
+
+-->Add backend support (Node.js/Django/Flask) to store bookings.
 
 Implement user login & payment gateway.
 
