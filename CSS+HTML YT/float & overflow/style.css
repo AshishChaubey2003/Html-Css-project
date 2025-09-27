@@ -1,0 +1,11 @@
+.container {
+  /* height: 400px;
+  width: 400px; */
+  border: 2px solid rgb(232, 104, 57);
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow: auto; */
+}
+.img1 {
+  float: left;
+}

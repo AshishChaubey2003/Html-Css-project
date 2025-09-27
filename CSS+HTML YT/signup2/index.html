@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="get" enctype="text/plain" autocomplete="off">
+      <fieldset>
+        <legend>
+          <h2>Signup Form</h2>
+          <h4>It just takes 30 seconds</h4>
+        </legend>
+
+        <label for="inp1">
+          Username
+          <input type="text" placeholder="Ashish Kumar Chaubey" required />
+        </label>
+        <br /><br />
+
+        <label for="inp2">
+          Email
+          <input
+            type="email"
+            placeholder="sashishchaubey1234@gmail.com"
+            required
+          />
+        </label>
+        <br /><br />
+
+        <label for="inp3">
+          Password <sup>*</sup>
+          <input type="text" placeholder="ASas@!@#" required />
+        </label>
+        <br /><br />
+
+        <label for="inp4">
+          <select name="yop" id="inp4">
+            <option value="" selected disabled>--Select Your Yop--</option>
+
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+          </select>
+        </label>
+
+        <label for="inp5">
+          State
+          <input
+            type="text"
+            name="stateName"
+            id="inp5"
+            placeholder="select your state"
+            list="state"
+            required
+          />
+          <datalist id="state">
+            <option value="Uttar Pradesh"></option>
+            <option value="Uttarakhand"></option>
+            <option value="Madhya Pradesh"></option>
+            <option value="Maharashtra"></option>
+            <option value="Bihar"></option>
+          </datalist>
+        </label>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

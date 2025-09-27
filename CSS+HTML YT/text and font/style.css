@@ -1,0 +1,22 @@
+p {
+  width: 100%;
+  border: 2px solid black;
+}
+h1 {
+  border: 2px solid rgba(235, 37, 37, 0.679);
+  padding: 10px;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: hsl(200, 55%, 26%);
+  align-items: center;
+}
+#summary {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(133, 48, 48);
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 2px 2px 5px rgba(207, 156, 28, 0.56);
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 400px;
+  height: 400px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: yellow;
+  margin: 88px auto;
+}
+.Box {
+  width: 200px;
+  height: 200px;
+  background-color: #2393dd;
+  /* transition: transform 0.5s ease; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* transform: scaleZ(2,1.2);
+  transform: skew(20deg,10deg); */
+  /* transform:translate(50px,100px); */
+  transform: rotate(45deg);
+}

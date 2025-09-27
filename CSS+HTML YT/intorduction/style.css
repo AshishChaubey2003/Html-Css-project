@@ -1,0 +1,9 @@
+details {
+  color: rgb(9, 126, 126);
+  background-color: rgb(225, 218, 218);
+  text-align: center;
+  strong {
+    font-family: cursive;
+    font-size: 20px;
+  }
+}

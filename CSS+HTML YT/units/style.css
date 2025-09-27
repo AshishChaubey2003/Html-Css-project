@@ -1,0 +1,27 @@
+p {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: hsl(25, 55%, 26%);
+  border: radius 10px;
+  width: 50vw;
+}
+h1 {
+  border: 2px solid rgba(235, 37, 37, 0.679);
+  padding: 10px;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: hsl(200, 55%, 26%);
+}
+/* section {
+  border: 2px solid rgba(235, 111, 29, 0.679);
+  padding: 10px;
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: hsl(324, 63%, 43%);
+  width: 50%;
+} */

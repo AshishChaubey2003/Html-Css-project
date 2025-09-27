@@ -1,0 +1,31 @@
+.container {
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  background-color: rgba(181, 127, 88, 0.39);
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  position: relative;
+  background-color: brown;
+  top: 50px;
+  bottom: 50px;
+}
+.blue {
+  position: fixed;
+  background-color: rgb(187, 152, 220);
+}
+.green {
+  position: absolute;
+  background-color: rgb(171, 202, 171);
+  top: 0;
+  left: 0;
+}
+.purple {
+  position: sticky;
+  background-color: purple;
+  top: auto;
+}

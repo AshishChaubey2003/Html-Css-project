@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+}
+
+.primary-button:link {
+  color: yellow;
+  padding: 10px;
+}
+
+.primary-button:hover {
+  color: rgb(200, 205, 41);
+}
+.primary-button:visited {
+  color: red;
+  background-color: black;
+}
+.primary-button:active {
+  color: white;
+  background-color: blue;
+}
+
+ul li:first-child {
+  color: rgb(205, 146, 146);
+  background-color: olive;
+}
+
+ul li:last-child {
+  color: rgb(146, 205, 179);
+  background-color: teal;
+}
+
+/* nth child 
+an+b */
+
+ul li:nth-child(2) {
+  color: rgb(146, 179, 205);
+  background-color: purple;
+}
+
+h2::first-letter {
+  background-color: orange;
+}
+
+::selection {
+  color: aqua;
+  background-color: black;
+}
+
+h3::before {
+  content: "using content property ";
+}
+
+h3::after {
+  content: " after using content property";
+}
+
+.required::after {
+  content: " *";
+  color: rgb(184, 184, 35);
+}
+
+.important::before {
+  content: "Important: ";
+  color: rgb(199, 59, 164);
+  font-weight: bold;
+  font-size: 2rem;
+}
