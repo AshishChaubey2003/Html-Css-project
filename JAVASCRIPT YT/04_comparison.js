@@ -16,7 +16,7 @@ console.log(undefined < 0);
 console.log("2 " === 2);
 
 const id = Symbol('123')
-const anotherId = symbol("123")
+const anotherId = new_symbol("123")
 console.log(id === anotherId);
 
 const bigNumber = 25436476366n;

@@ -25,3 +25,7 @@ console.log(typeof true);
 console.log(typeof undefined);
 console.log(typeof null);
 console.table(typeof { name: "ashish", age: 21 });
+
+let b= "ashish"
+b=4 
+
